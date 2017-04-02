@@ -1,0 +1,91 @@
+header[role='banner'] .icon{
+    width: 100px;
+    height: 100px;
+
+    margin: 0em auto;
+	
+}
+
+header[role='banner'] .icon span{
+	margin-top: 1em;
+	font-size: 3em;
+}
+
+.show__about{
+	margin:0.5em;
+}
+
+p {
+    margin-top: 1.6em;
+    margin-bottom: 1.6em;
+}
+
+article header .byline{
+	display: flex;
+	justify-content: space-between;
+	color: #999;
+}
+
+body{
+	margin:0;
+	font-family: 'Avenir Next',Avenir,'Helvetica Neue',Helvetica,'Lantinghei SC','Hiragino Sans GB',sans-serif;
+}
+
+header[role='banner']{
+	width: 240px;
+	color: #eee;
+	background: #58b2dc;
+
+	text-align: center;
+
+	position: fixed; /* */
+	top: 0;
+	left: 0;
+	bottom: 0;
+	padding-bottom: 4em;
+}
+
+
+header[role='banner'] p{
+	margin-top: 2em;
+}
+
+main{
+	margin-left: 240px;
+	padding: 2em;
+}
+
+main h1{
+	text-align: center;
+	margin: 0;
+}
+
+main a{
+	color: #58b2dc;
+}
+
+main article{
+	border-bottom: 2px double #eee;
+}
+
+@media screen and (max-width: 720px) {
+    header[role='banner']{
+    	display: block;
+    	position: relative;
+    	padding: 0;
+    	margin: 0;
+
+    	width: 100vw;
+    	height: 15em;
+    }
+    
+    header[role='banner'] p {
+    	margin-top: 0;
+    	padding-top: 2em;
+	}
+
+    main{
+		margin-left: 0;
+		padding: 2em;
+	}
+}
